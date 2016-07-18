@@ -1,0 +1,10 @@
+name: shards_test
+version: 0.0.0
+
+author:
+  - Kepler Sticka-Jones <kepler@stickajones.org>
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    version: 0.13.0

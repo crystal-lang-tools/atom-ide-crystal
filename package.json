@@ -7,8 +7,53 @@
   "license": "MIT",
   "activationCommands": {},
   "consumedServices": {},
-  "providedServices": {},
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideSteelbrainLinter"
+      }
+    }
+  },
   "devDependencies": {
     "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "atom"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": 0
+    },
+    "envs": [
+      "jasmine",
+      "atomtest"
+    ]
+  },
+  "configSchema": {
+    "compilerExecPath": {
+      "title": "Compiler Executable Path",
+      "description": "The path (with excutable) of the Crystal compiler to be run by the IDE in the background. By default the IDE will use the compiler in your path.",
+      "type": "string",
+      "default": "crystal"
+    },
+    "artifactsDuringDiagnostics": {
+      "title": "Build Artifacts when Diagnostics",
+      "description": "Should the compiler build artifacts when compiling code for diagnostics.",
+      "type": "boolean",
+      "default": false
+    },
+    "compilerColorOutput": {
+      "title": "Compiler Color Codes",
+      "description": "When false the compiler will include ASCII color characters in output for the IDE.",
+      "type": "boolean",
+      "default": false
+    },
+    "diagnosticsCommand": {
+      "title": "Diagnostics Command",
+      "description": "The compiler command used when finding diagnostics.",
+      "type": "string",
+      "default": "build"
+    }
   }
 }
