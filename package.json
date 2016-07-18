@@ -1,0 +1,14 @@
+{
+  "name": "crystal",
+  "repository": "https://github.com/atom-crystal/atom-crystal",
+  "main": "./lib/main.js",
+  "version": "0.0.0",
+  "description": "Crystal IDE for Atom and Nuclide.",
+  "license": "MIT",
+  "activationCommands": {},
+  "consumedServices": {},
+  "providedServices": {},
+  "devDependencies": {
+    "xo": "^0.16.0"
+  }
+}
