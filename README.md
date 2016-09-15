@@ -12,6 +12,10 @@ This package provides diagnostic information for compilation errors in your Crys
 - [Nuclude](https://atom.io/packages/nuclide) by Facebook
 - [linter](https://atom.io/packages/linter) by steelbrain
 
+### Code Formatting
+
+With the "Format on Save" configuration option enabled, this package will run the Crystal Code Formatter on the currently open file when it is saved.
+
 ### Test Running
 
 In the future this package will make use of the Crystal compiler's test running functionality and show you your passing and failing tests in the editor.
@@ -23,10 +27,6 @@ In the future this package will make use of the Crystal compiler's implementatio
 ### Autocomplete
 
 In the future this package will provide autocomplete suggestions for your Crystal project.
-
-### Code Formatting
-
-In the future this package will make use of the Crystal compiler's code formatting functionality, allowing you to format your code right from the text editor.
 
 ### Shards Integration
 
