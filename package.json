@@ -20,7 +20,8 @@
   "xo": {
     "esnext": true,
     "globals": [
-      "atom"
+      "atom",
+      "TextDecoder"
     ],
     "rules": {
       "import/no-extraneous-dependencies": 0
