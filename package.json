@@ -2,7 +2,7 @@
   "name": "crystal",
   "repository": "https://github.com/atom-crystal/atom-crystal",
   "main": "./lib/main.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Crystal IDE for Atom and Nuclide.",
   "license": "MIT",
   "activationCommands": {},
