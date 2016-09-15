@@ -54,6 +54,12 @@
       "description": "The compiler command used when finding diagnostics.",
       "type": "string",
       "default": "build"
+    },
+    "formatOnSave": {
+      "title": "Format on Save",
+      "description": "Run `crystal tool format` each time a file is saved.",
+      "type": "boolean",
+      "default": false
     }
   }
 }
