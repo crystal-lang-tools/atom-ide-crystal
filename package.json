@@ -1,5 +1,5 @@
 {
-  "name": "crystal",
+  "name": "ide-crystal",
   "repository": "https://github.com/atom-crystal/atom-crystal",
   "main": "./lib/main.js",
   "version": "0.2.2",
