@@ -15,7 +15,7 @@
     }
   },
   "devDependencies": {
-    "xo": "0.16.0"
+    "xo": "0.18.2"
   },
   "xo": {
     "esnext": true,
