@@ -24,16 +24,16 @@
     "typescript": "^2.7.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^6.1.3",
-    "@commitlint/config-conventional": "^6.1.3",
-    "@commitlint/travis-cli": "^6.1.3",
-    "@semantic-release/apm-config": "^2.0.0",
-    "@types/atom": "^1.24.2",
-    "@types/decompress": "^4.2.0",
-    "@types/node": "^9.4.6",
-    "husky": "^0.14.3",
-    "prettier": "^1.5.3",
-    "semantic-release": "^15.0.0"
+    "@commitlint/cli": "6.1.3",
+    "@commitlint/config-conventional": "6.1.3",
+    "@commitlint/travis-cli": "6.1.3",
+    "@semantic-release/apm-config": "2.0.0",
+    "@types/atom": "1.24.2",
+    "@types/decompress": "4.2.0",
+    "@types/node": "9.4.6",
+    "husky": "0.14.3",
+    "prettier": "1.11.1",
+    "semantic-release": "15.0.0"
   },
   "enhancedScopes": [
     "source.crystal"
