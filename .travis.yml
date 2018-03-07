@@ -2,11 +2,17 @@ language: node_js
 
 node_js: lts/*
 
-# deploy:
-#   provider: script
-#   skip_cleanup: true
-#   script:
-#     - npx semantic-release
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
+
+### Atom Environment ###
+before_install:
+  - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
+  - chmod u+x build-package.sh
+  - "./build-package.sh"
 
 script:
   - commitlint-travis
