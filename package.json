@@ -16,11 +16,11 @@
     "decompress": "^4.0.0"
   },
   "devDependencies": {
-    "@types/atom": "^1.24.2",
-    "@types/decompress": "^4.2.0",
-    "@types/node": "^9.4.6",
-    "prettier": "^1.5.3",
-    "typescript": "^2.7.2"
+    "@types/atom": "1.24.2",
+    "@types/decompress": "4.2.0",
+    "@types/node": "9.4.6",
+    "prettier": "1.11.1",
+    "typescript": "2.7.2"
   },
   "enhancedScopes": ["source.crystal"],
   "consumedServices": {
