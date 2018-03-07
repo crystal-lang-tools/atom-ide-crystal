@@ -1,6 +1,9 @@
 {
   "name": "ide-crystal",
-  "repository": "https://github.com/crystal-lang-tools/atom-ide-crystal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crystal-lang-tools/atom-ide-crystal"
+  },
   "main": "./lib/main.js",
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
