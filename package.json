@@ -11,7 +11,7 @@
     "lint": "prettier",
     "prerelease": "tsc"
   },
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Crystal support for Atom IDE",
   "license": "MIT",
   "engines": {
@@ -35,7 +35,9 @@
     "prettier": "^1.5.3",
     "semantic-release": "^15.0.0"
   },
-  "enhancedScopes": ["source.crystal"],
+  "enhancedScopes": [
+    "source.crystal"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
@@ -97,13 +99,17 @@
     }
   ],
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "release": {
     "extends": "@semantic-release/apm-config"
   },
   "renovate": {
-    "extends": ["config:base"],
+    "extends": [
+      "config:base"
+    ],
     "automerge": true,
     "automergeType": "branch-push",
     "major": {
