@@ -4,7 +4,8 @@
   "main": "./lib/main.js",
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "lint": "prettier"
+    "lint": "prettier",
+    "prerelease": "tsc"
   },
   "version": "0.2.3",
   "description": "Crystal support for Atom IDE",
