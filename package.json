@@ -1,66 +1,75 @@
 {
   "name": "ide-crystal",
-  "repository": "https://github.com/atom-crystal/atom-crystal",
+  "repository": "https://github.com/crystal-lang-tools/atom-ide-crystal",
   "main": "./lib/main.js",
+  "scripts": {
+    "lint": "prettier"
+  },
   "version": "0.2.3",
-  "description": "Crystal IDE for Atom and Nuclide.",
+  "description": "Crystal support for Atom IDE",
   "license": "MIT",
-  "activationCommands": {},
-  "consumedServices": {},
-  "providedServices": {
-    "linter": {
+  "engines": {
+    "atom": ">=1.17.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "^0.9.2",
+    "decompress": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.24.2",
+    "@types/decompress": "^4.2.0",
+    "@types/node": "^9.4.6",
+    "prettier": "^1.5.3",
+    "typescript": "^2.7.2"
+  },
+  "enhancedScopes": ["source.crystal"],
+  "consumedServices": {
+    "linter-indie": {
       "versions": {
-        "1.0.0": "provideSteelbrainLinter"
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
       }
     }
   },
-  "devDependencies": {
-    "xo": "0.18.2"
-  },
-  "xo": {
-    "esnext": true,
-    "globals": [
-      "atom",
-      "TextDecoder"
-    ],
-    "rules": {
-      "import/no-extraneous-dependencies": 0
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
     },
-    "envs": [
-      "jasmine",
-      "atomtest"
-    ]
-  },
-  "configSchema": {
-    "compilerExecPath": {
-      "title": "Compiler Executable Path",
-      "description": "The path (with excutable) of the Crystal compiler to be run by the IDE in the background. By default the IDE will use the compiler in your path.",
-      "type": "string",
-      "default": "crystal"
+    "code-format.range": {
+      "versions": {
+        "0.1.0": "provideCodeFormat"
+      }
     },
-    "artifactsDuringDiagnostics": {
-      "title": "Build Artifacts when Diagnostics",
-      "description": "Should the compiler build artifacts when compiling code for diagnostics.",
-      "type": "boolean",
-      "default": false
+    "code-highlight": {
+      "versions": {
+        "0.1.0": "provideCodeHighlight"
+      }
     },
-    "compilerColorOutput": {
-      "title": "Compiler Color Codes",
-      "description": "When false the compiler will include ASCII color characters in output for the IDE.",
-      "type": "boolean",
-      "default": false
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
     },
-    "diagnosticsCommand": {
-      "title": "Diagnostics Command",
-      "description": "The compiler command used when finding diagnostics.",
-      "type": "string",
-      "default": "build"
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
     },
-    "formatOnSave": {
-      "title": "Format on Save",
-      "description": "Run `crystal tool format` each time a file is saved.",
-      "type": "boolean",
-      "default": false
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
     }
   }
 }
