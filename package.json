@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "6.1.3",
     "@commitlint/travis-cli": "6.1.3",
     "@semantic-release/apm-config": "2.0.0",
-    "@types/atom": "1.24.3",
+    "@types/atom": "1.24.4",
     "@types/decompress": "4.2.0",
     "@types/node": "9.4.7",
     "husky": "0.14.3",
