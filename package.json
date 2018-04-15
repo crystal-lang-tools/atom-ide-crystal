@@ -2,7 +2,7 @@
   "name": "ide-crystal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/crystal-lang-tools/atom-ide-crystal"
+    "url": "https://github.com/crystal-lang-tools/atom-ide-crystal.git"
   },
   "main": "./src/main.ts",
   "scripts": {
