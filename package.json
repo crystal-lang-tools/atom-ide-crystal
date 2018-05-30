@@ -30,7 +30,7 @@
     "@semantic-release/apm-config": "2.0.1",
     "@types/atom": "1.27.0",
     "@types/decompress": "4.2.2",
-    "@types/node": "9.6.18",
+    "@types/node": "9.6.19",
     "husky": "0.14.3",
     "prettier": "1.13.2",
     "semantic-release": "15.5.0"
