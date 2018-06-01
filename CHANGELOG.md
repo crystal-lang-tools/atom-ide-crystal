@@ -1,3 +1,11 @@
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/crystal-lang-tools/atom-ide-crystal/compare/v0.3.3...v0.3.4) (2018-06-01)
+
+
+### Bug Fixes
+
+* **deps:** roll back dependency atom to v1.3.0 ([d3b7731](https://github.com/crystal-lang-tools/atom-ide-crystal/commit/d3b7731))
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/crystal-lang-tools/atom-ide-crystal/compare/v0.3.2...v0.3.3) (2018-03-08)
 
