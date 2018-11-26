@@ -33,7 +33,7 @@
     "@types/node": "9.6.39",
     "husky": "0.14.3",
     "prettier": "1.15.2",
-    "semantic-release": "15.12.1"
+    "semantic-release": "15.12.2"
   },
   "enhancedScopes": [
     "source.crystal"
