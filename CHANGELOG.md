@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/crystal-lang-tools/atom-ide-crystal/compare/v0.3.4...v0.3.5) (2020-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v3 ([8386127](https://github.com/crystal-lang-tools/atom-ide-crystal/commit/83861276323173e79d6fa04f01952d787780640e))
+
 <a name="0.3.4"></a>
 ## [0.3.4](https://github.com/crystal-lang-tools/atom-ide-crystal/compare/v0.3.3...v0.3.4) (2018-06-01)
 
