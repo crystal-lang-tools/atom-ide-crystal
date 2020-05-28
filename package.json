@@ -21,7 +21,7 @@
     "atom-languageclient": "^0.9.2",
     "atom-ts-transpiler": "^1.4.3",
     "decompress": "^4.0.0",
-    "typescript": "^2.7.2"
+    "typescript": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "6.2.0",
