@@ -24,9 +24,9 @@
     "typescript": "^3.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "6.2.0",
-    "@commitlint/config-conventional": "6.1.3",
-    "@commitlint/travis-cli": "6.2.0",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/travis-cli": "8.3.5",
     "@semantic-release/apm-config": "2.0.1",
     "@types/atom": "1.40.4",
     "@types/decompress": "4.2.3",
