@@ -20,7 +20,7 @@
   "dependencies": {
     "atom-languageclient": "^0.9.2",
     "atom-ts-transpiler": "^1.4.3",
-    "decompress": "^4.0.0",
+    "decompress": "^4.2.1",
     "typescript": "^3.0.0"
   },
   "devDependencies": {
