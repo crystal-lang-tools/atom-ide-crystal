@@ -9,7 +9,10 @@ deploy:
     # npx semantic-release
 
 ### Atom Environment ###
+sudo: required
 before_install:
+  - rm -rf ./node_modules package-lock.json
+  - npm install -g node-gyp
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
   - chmod u+x build-package.sh
   - "./build-package.sh"
