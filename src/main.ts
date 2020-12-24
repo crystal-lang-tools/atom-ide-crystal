@@ -8,11 +8,11 @@ import decompress = require("decompress");
 const serverDownload = {
   darwin: {
     url:
-      "https://github.com/crystal-lang-tools/scry/releases/download/v0.7.1/scry_macOS.tar.gz"
+      "https://github.com/crystal-lang-tools/scry/releases/download/v0.8.1/scry_macOS.tar.gz"
   },
   linux: {
     url:
-      "https://github.com/crystal-lang-tools/scry/releases/download/v0.7.1/scry_linux.tar.gz"
+      "https://github.com/crystal-lang-tools/scry/releases/download/v0.8.1/scry_linux.tar.gz"
   }
 };
 const serverBinary = "scry";
