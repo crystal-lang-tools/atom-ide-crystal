@@ -6,7 +6,7 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - npx semantic-release
+    # npx semantic-release
 
 ### Atom Environment ###
 before_install:
@@ -15,11 +15,10 @@ before_install:
   - "./build-package.sh"
 
 script:
-  - commitlint-travis
+  # commitlint-travis
   # - npm run lint
   - npm run build
-  
-  
+
 after_success:
   # Add apm to the PATH
   - export PATH=${PATH}:${HOME}/atom/usr/bin/
