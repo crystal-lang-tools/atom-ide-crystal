@@ -14,7 +14,7 @@
   "version": "0.3.6",
   "description": "Crystal support for Atom IDE",
   "license": "MIT",
-  "engines": {"atom": ">=1.0.0 <2.0.0"}
+  "engines": {"atom": ">=1.0.0 <2.0.0"},
   "dependencies": {
     "atom-languageclient": "^1.0.0",
     "atom-ts-transpiler": "^1.4.3",
