@@ -31,7 +31,7 @@
     "@types/node": "9.6.61",
     "husky": "4.3.0",
     "prettier": "2.0.5",
-    "semantic-release": "17.2.3"
+    "semantic-release": "19.0.0"
   },
   "enhancedScopes": [
     "source.crystal"
