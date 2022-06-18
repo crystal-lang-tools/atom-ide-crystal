@@ -29,9 +29,9 @@
     "@types/atom": "1.40.5",
     "@types/decompress": "4.2.3",
     "@types/node": "9.6.61",
-    "husky": "4.3.0",
+    "husky": "4.3.7",
     "prettier": "2.0.5",
-    "semantic-release": "17.2.3"
+    "semantic-release": "17.3.1"
   },
   "enhancedScopes": [
     "source.crystal"
