@@ -25,7 +25,7 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@commitlint/travis-cli": "11.0.0",
-    "@semantic-release/apm-config": "8.0.0",
+    "@semantic-release/apm-config": "9.0.1",
     "@types/atom": "1.40.5",
     "@types/decompress": "4.2.3",
     "@types/node": "9.6.61",
