@@ -30,7 +30,7 @@
     "@types/decompress": "4.2.3",
     "@types/node": "9.6.61",
     "husky": "4.3.0",
-    "prettier": "2.0.5",
+    "prettier": "2.8.8",
     "semantic-release": "17.2.3"
   },
   "enhancedScopes": [
