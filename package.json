@@ -28,7 +28,7 @@
     "@semantic-release/apm-config": "8.0.0",
     "@types/atom": "1.40.5",
     "@types/decompress": "4.2.3",
-    "@types/node": "9.6.61",
+    "@types/node": "18.16.16",
     "husky": "4.3.0",
     "prettier": "2.0.5",
     "semantic-release": "17.2.3"
