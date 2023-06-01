@@ -1,3 +1,5 @@
+Atom was archived on December 15, 2022. Learn more in [the official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+
 # ide-crystal
 
 Adds the [scry Crystal Language Server](https://github.com/crystal-lang-tools/scry) to Atom IDE.
